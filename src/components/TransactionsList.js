@@ -1,7 +1,9 @@
 import React from "react";
 import Transaction from "./Transaction";
 
-function TransactionsList({transactions}) {
+function TransactionsList({transactions ,handleDeletedTransaction}) {
+
+
   return (
     <table className="ui celled striped padded table">
       <tbody>
@@ -25,7 +27,9 @@ function TransactionsList({transactions}) {
         date={transaction.date}
         description={transaction.description}
         category={transaction.category}
-        amount={transaction.amount}/>
+        amount={transaction.amount}
+        handleDeletedTransaction={handleDeletedTransaction}
+        transaction={transaction}/>
         ))}
       </tbody>
     </table>

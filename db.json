@@ -83,6 +83,20 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2023-06-05",
+      "description": "Cash app from Burger King",
+      "category": "Food",
+      "amount": "-250",
+      "id": 13
+    },
+    {
+      "date": "2023-06-07",
+      "description": " Mpesa to KFC",
+      "category": "Food",
+      "amount": "-1000",
+      "id": 14
     }
   ]
 }

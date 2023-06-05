@@ -25,6 +25,11 @@ function AddTransactionForm({handleAddTransaction}) {
   })
   .then(resp=>resp.json())
   .then(newTransaction=>handleAddTransaction(newTransaction))
+
+  setDate("")
+  setDescription("")
+  setCategory("")
+  setAmount("")
 }
 
   return (
